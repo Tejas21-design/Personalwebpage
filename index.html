@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Portfolio website complete</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div class="aside">
+        <a href="#" class="nav__logo">TEJAS</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <!-- <div class="column-h" -->
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Tejas Joshi</span><br><span
+            class="proffesion"></span> </h1>
+
+        <a href="#" class="button">HIRE ME</a>
+      </div>
+
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/tejas-joshi-2aa572199" class="home__social-icon"><i
+            class='bx bxl-linkedin'></i></a>
+        <a href="https://twitter.com/Tejasjo48373403?s=08" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+        <a href="https://github.com/Tejas21-design" class="home__social-icon"><i class='bx bxl-github'></i></a>
+        <a href="" class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+
+      <div class="home__img">
+        <img style="width: 258px; margin: auto " src="./me.png" alt="">
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="./about.png" alt="">
+        </div>
+
+        <div>
+          <h2 class="about__subtitle">I'am Tejas</h2>
+          <p class="about__text">I am a student of 4th year engineering at Shri. RamdeoBaba College of Engineering and
+            management Nagpur . I am doing my Engineering in Industrial branch and Minor in Computer Science Branch. I
+            have a deep Intrest in development and software and I always loves to learn more and create more</p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <div class="header">
+        <h2 class="section-title">Skills</h2>
+
+      </div>
+      <div class="skillcontainer">
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="./html-5.png" class="skill-icon">
+            </div>
+            <h3>HTML 5️⃣</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="./css.png" class="skill-icon">
+            </div>
+            <h3>CSS 3️⃣</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="./js.png" class="skill-icon css" style="width: 65px !important;">
+            </div>
+            <h3>Javascript</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="react1.png" class="skill-icon">
+            </div>
+            <h3>React Js</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="nodejs-removebg-preview.png" class="skill-icon">
+            </div>
+            <h3>Node Js</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="./mongo.png" class=" skill-icon">
+            </div>
+            <h3>Mongo DB</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="c++.png" class="skill-icon">
+            </div>
+            <h3>C++</h3>
+          </div>
+        </div>
+
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="new-php-logo.svg" class="skill-icon">
+            </div>
+            <h3>PHP</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="post-removebg-preview.png" class="skill-icon">
+            </div>
+            <h3>POSTMAN</h3>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="c-removebg-preview.png" class="skill-icon">
+            </div>
+            <h3>C</h3>
+          </div>
+        </div>
+
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="DBMS-removebg-preview.png" class="skill-icon">
+            </div>
+            <h3>DBMS</h3>
+          </div>
+        </div>
+
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img-skill">
+              <img src="OOPS-removebg-preview.png" class="skill-icon">
+            </div>
+            <h3>OOPS</h3>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+      <h2 class="section-title">Work</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top portfolio-card__image" src="./amazon.png" alt="Card image cap">
+              <a href="https://github.com/Tejas21-design/Mylibrary" target="_blank" class="project-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+              <div class="card-body">
+                <h4 class="card-title mb-2 portfolio-card__title">MyLibrary App 📖 </h4>
+                <p class="card-text portfolio-card__text">User can get information about the bookk he read it yesterday
+                  or day long just by storig each an every 📄 about the book</p>
+
+                <a href="https://github.com/Tejas21-design/Mylibrary"
+                  class="card-link portfolio-card__link">SourceCode</a>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top portfolio-card__image" src="./mern.png" alt="Card image cap">
+              <a href="https://github.com/Tejas21-design/WebServerChatApp" target="_blank" class="project-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+              <div class="card-body">
+
+                <h4 class="card-title mb-2 portfolio-card__title">RealTime Chat</h4>
+                <p class="card-text portfolio-card__text">A Fully functional chat app with the use of best technologies,
+                  user can do many things on this app. </p>
+
+                <a href="https://github.com/Tejas21-design/WebServerChatApp" target="_blank"
+                  class="card-link portfolio-card__link">SourceCode</a>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top portfolio-card__image" src="./portfolio.png" alt="Card image cap">
+              <a href="#" target="_blank" class="project-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+              <div class="card-body">
+
+                <h4 class="card-title mb-2 portfolio-card__title">🍕 Pizza Delivery App </h4>
+                <p class="card-text portfolio-card__text">One of the best App with all the functionality available. User
+                  friendly easy to use </p>
+
+                <a href="#" target="_blank" class="card-link portfolio-card__link">SourceCode</a>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top portfolio-card__image" src="./amazon.png" alt="Card image cap">
+              <a href="https://clone-d879b.web.app/" target="_blank" class="project-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+              <div class="card-body">
+
+                <h4 class="card-title mb-2 portfolio-card__title">Amazzzon-clone</h4>
+                <p class="card-text portfolio-card__text">Some quick example text to build on the card title and make up
+                  the
+                  bulk of the card's content.</p>
+
+                <a href="#" target="_blank" class="card-link portfolio-card__link">SourceCode</a>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+
+
+            </div>
+
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top portfolio-card__image" src="./portfolio.png" alt="Card image cap">
+              <a href="#" target="_blank" class="project-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+              <div class="card-body">
+
+                <h4 class="card-title mb-2 portfolio-card__title">Movie-Api App</h4>
+                <p class="card-text portfolio-card__text">Some quick example text to build on the card title and make up
+                  the
+                  bulk of the card's content.</p>
+
+                <a href="#" target="_blank" class="card-link portfolio-card__link">SourceCode</a>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top portfolio-card__image" src="./amazon.png" alt="Card image cap">
+              <a href="#" target="_blank" class="project-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+              <div class="card-body">
+
+                <h4 class="card-title mb-2 portfolio-card__title">Stock App</h4>
+                <p class="card-text portfolio-card__text">Some quick example text to build on the card title and make up
+                  the
+                  bulk of the card's content.</p>
+
+                <a href="#" target="_blank" class="card-link portfolio-card__link">SourceCode</a>
+
+
+              </div>
+            </div>
+          </div>
+
+    </section>
+    <!--===== TIMELINE =====-->
+    <!-- timeline -->
+    <section class="section timeline">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>Achievements</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="section-center timeline-center">
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>📅 January-March 2021</h4>
+          <p>
+            Completed My 2 Months Internship As a 👨‍💻 <font size="+2">Software Developer</font>
+          </p>
+          <small>FlexC Private Limited</small><br />
+
+
+          <span class="number">
+            1
+          </span>
+        </article>
+        <!-- end of  single timeline item -->
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>📅 August-October 2020</h4>
+          <p>
+            Completed My 2 Months Internship As a <font size="+2">Frontend Developer</font>
+          </p>
+          <small>MR Soya (A Food startup) </small><br />
+
+          <span class="number">
+            2
+          </span>
+        </article>
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4> 📅 2020</h4>
+          <p>
+            Currently in my 2nd year of Engineering</p>
+          <small>Shri.Ramdeoababa College Of Engineering And Management</small><br />
+          <small>My Current CGPA are 8.03</small>
+
+          <span class="number">
+            3
+          </span>
+        </article>
+        <!-- end of  single timeline item -->
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>📅 2019</h4>
+          <p>
+            Joined Engineering Collge With Industrial Engineering and Minor in Computer Science
+          </p>
+          <small>Shri.Ramdeoababa College Of Engineering And Management</small>
+          <span class="number">
+            4
+          </span>
+        </article>
+        <!-- end of  single timeline item -->
+
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>📅 2019</h4>
+          <p>
+            Completed My Senior Education(12TH)STATE
+          </p>
+          <small>Rai English School and Junior College</small><br />
+          <small>I have completed my 12th from STATE board with overall 70%.</small> <span class="number">
+            5
+          </span>
+        </article>
+
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>📅 2017</h4>
+          <p>SECONDARY EDUCATION (10TH), STATE</p>
+          <small>Rai English School and Junior College</small><br />
+          <small>I have completed my 10th from STATE board with overall 85%</small>
+
+
+          <span class="number">
+            6
+          </span>
+        </article>
+        <!-- end of  single timeline item -->
+
+      </div>
+    </section>
+    <!--end of  timeline -->
+    <!--===== TIMELINE-END =====-->
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input">
+          <input type="mail" placeholder="Email" class="contact__input">
+          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <a href="#" class="button ">Submit</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title"><span>😆</span>Made With Love</p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/tejas-joshi-2aa572199" class="footer__icon"><i
+          class='bx bxl-linkedin'></i></a>
+      <a href="https://www.instagram.com/tejasjoshi09/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+      <a href="https://twitter.com/Tejasjo48373403?s=08" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+    </div>
+    <p>&#169; 2021 copyright all right reserved</p>
+  </footer>
+
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+  <!--===== TEXT ANIMATION JS =====-->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script>
+    var typed = new Typed('.proffesion', {
+      strings: [
+        "WebDeveloper",
+        "Frontend"
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
+</body>
+
+</html>
